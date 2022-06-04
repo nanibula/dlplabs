@@ -1,0 +1,39 @@
+Linux Essentials Lab:
+This lab has 5 small tasks:
+
+task-1:
+Create a directory with name "test" on the desktop
+create another directory called "test-internal" on the desktop
+
+task-2:
+In the test-internal directory create a empty file with name "empty-file"
+still in the same directory create another empty file with name "content-file"
+
+task-3:
+open "content-file" in VI editor and type the following line:
+Hi sample world!
+then save and exit
+
+task-4:
+Now copy the " content-file" from the test-internal directory to "test" directory on the desktop
+Now change the file permission of "content-file" to only readable
+Things you need to send me:
+type "ls -la" and send screenshot
+
+task-5:
+Install a package called "nginx"
+Tip: Any package can be installed by using the command: " sudo apt install [package-name] -y"    Replace [package-name] with desired package name
+example: sudo apt install net-tools
+Things you need to send me:
+type "sudo service nginx status" and send me the screenshot
+
+From the following lab you will learn:
+How to create a directory?
+How to create a file?
+How to copy a file?
+How to change file permission of a file?
+How to install a package?
+
+
+
+
