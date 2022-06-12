@@ -1,0 +1,32 @@
+GIT INDUCTORY LAB:
+
+************ PUSHING YOUR FIRST FILE TO GITHUB**************************
+
+1)create a directory with name "india" on the desktop
+command: mkdir india
+
+2)Initialize the git in the india directory
+command: cd india
+                  git init 
+                  git config --global user.name "[your_name]"
+                  git config --global user.email "[your_email]"
+                  git remote add origin [your_github_repo_url]
+                  
+3)create a file named "indianfile" in india directory and add the content "This is file from India" then  save and exit
+command: touch indianfile
+                  vi indianfile
+                  press i to insert 
+                  now add the following content "This is file from India"
+                  Now click "esc button then shift plus semicolon wq enter" to save and exit
+                  
+4)stage the changes and commit the file
+commands: git add indianfile
+                    git commit -m "indianfile first commit"
+                    you can use "git log --oneline" to check whether your commit is successful or not
+                    
+5)Now finally push the changes to the github repo
+command: git push origin master
+                  It will ask your github username and password
+                  please provide username and in place of password you need to give github personal auth token
+
+If you have done correct you can see your "indianfile" in your git hub repository
