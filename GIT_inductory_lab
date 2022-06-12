@@ -50,7 +50,7 @@ command:          git pull origin master
 What Happend in this Lab;
 --> First we have created india directory( considering one employee is working from india)
 -->we have created a file and pushed to github (indian employee has done some work and pushed his file to github)
--->We have created america directory (considering one employee is working from america)
+-->We have created america directory (considering another employee is working from america)
 -->Now we pulled the file from github (after pulling the file from github, american employee will get all the work done by the indian employee)
 
 Note: 
