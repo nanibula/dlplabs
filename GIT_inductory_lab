@@ -30,3 +30,28 @@ use command:      git push origin master
                   please provide username and in place of password you need to give github personal auth token
 
 If you have done correct you can see your "indianfile" in your git hub repository
+
+
+************ PULLING  YOUR FIRST FILE TO GITHUB**************************
+1)create a directory with name "america" on the desktop
+command: mkdir america
+2)Initialize the git in the america directory
+command:          cd america
+                  git init 
+                  git config --global user.name "[your_name]"
+                  git config --global user.email "[your_email]"
+                  git remote add origin [your_github_repo_url]
+2)Now pull  the file from github repo
+command:          git pull origin master
+                  It will ask your github username and password
+                  please provide username and in place of password you need to give github personal auth token
+3)After successful pull now you will see indianfile in america directory
+
+What Happend in this Lab;
+--> First we have created india directory( considering one employee is working from india)
+-->we have created a file and pushed to github (indian employee has done some work and pushed his file to github)
+-->We have created america directory (considering one employee is working from america)
+-->Now we pulled the file from github (after pulling the file from github, american employee will get all the work done by the indian employee)
+
+Note: 
+Instead of creating instances you can create seperate directories and use them as git repos
