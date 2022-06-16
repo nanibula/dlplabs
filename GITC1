@@ -1,0 +1,12 @@
+***************************WELCOME TO GIT CHALLENGE**********************
+
+Task1:
+1)create a directory "gitc1" on desktop
+2)Initialize git in that direcory and config your username, email
+3)In the directory "gitc1" create a file with name "gitext" 
+4)Add the line "git ins, cs, commits" into that file then save and exit
+5)now stage the changes and commit the file with commit message as "initial commit"
+SREENSHOT: type command "git log --oneline" and send ss
+
+Task2:
+will update according to your learning....KEEP LEARNING!
